@@ -35,7 +35,6 @@ export default function CreateAccount() {
         await signInWithEmailAndPassword(auth, email, password);
         navigate("/");
       } catch (e) {
-        console.error(e);
         if (e instanceof FirebaseError) {
           setError(e.message);
         }
