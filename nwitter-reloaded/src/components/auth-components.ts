@@ -1,16 +1,18 @@
 import { styled } from "styled-components";
 
 export const Wrapper = styled.div`
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  aligh-items: center;
+  align-items: center;
+  justify-content: center;
   width: 420px;
   padding: 50px 0px;
 `;
 
 export const Title = styled.h1`
   font-size: 42px;
+  margin-bottom: 40px;
 `;
 
 export const Form = styled.form`
@@ -42,7 +44,7 @@ export const Error = styled.span`
 `;
 
 export const Switcher = styled.span`
-  margin-top: 20px;
+  margin-top: 30px;
   a {
     color: #1d9bf0;
   }
