@@ -98,6 +98,9 @@ export default function PostTweetForm() {
         username: user.displayName || "Anonymous",
         userId: user.uid,
       });
+
+      setTweet("");
+      setFile(null);
     } catch (e) {
       console.error(e);
     } finally {
