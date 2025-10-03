@@ -1,4 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { createGlobalStyle } from "styled-components";
+import reset from "styled-reset";
 import Layout from "./components/layout";
 import Home from "./routes/home";
 import Profile from "./routes/profile";
